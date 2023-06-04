@@ -22,7 +22,7 @@
     },
     {
       "name": "Test 1",
-      "setup": "npm start",
+      "setup": "",
       "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
       "input": "",
       "output": "",
