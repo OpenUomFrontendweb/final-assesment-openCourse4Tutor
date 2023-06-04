@@ -75,11 +75,13 @@
         cancel
       </button>
       <!--Task 3 Complete the code inside <button> tag-->
-      <button
+        <button
         type="submit"
+        [disabled]="!supplierFrom.valid"
         class="btn btn-outline-primary"
         id ="supplier-submit"
       >
+
         Submit<i
           *ngIf="isDataUploading"
           class="fa fa-spinner fa-pulse fa-fw"

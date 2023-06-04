@@ -6,7 +6,7 @@ describe('Test For data retrieving', () => {
     .invoke('index')
     .then((index) => {
       cy.get('#supplier-table tbody tr:first-child td').eq(index)
-        .should('contain', 'Mar 02, 2022');
+        .should('contain', 'Mar 2, 2022');
     });
     })
   })

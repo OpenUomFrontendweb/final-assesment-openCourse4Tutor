@@ -13,7 +13,7 @@ export class SupplierService {
   constructor(private http : HttpClient) { }
 
   getSuppliers(): Observable<SupplierResponse> {
-    // Task 1 - Complete here.
+   return this.http.get<SupplierResponse>(this.baseUrl + 'api/suppliers/');
   }
 
   addSupplier(supplier: Supplier): Observable<AddSupplierResponse> {

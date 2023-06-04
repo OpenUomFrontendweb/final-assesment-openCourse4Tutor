@@ -32,7 +32,7 @@ export class AddSupplierComponent implements OnInit {
     this.isDataUploading = true;
     this.supplierService.addSupplier(values as Supplier).subscribe((res) => {
       this.isDataUploading = false;
-      //Task 4 - Complete the code here. 
+      this.supplierFrom.reset();
       this.supplierAddEvent.emit();
     });
   }
