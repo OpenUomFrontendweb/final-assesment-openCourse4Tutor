@@ -22,22 +22,12 @@
     },
     {
       "name": "Test 1",
-      "setup": "",
-      "run": "npm start",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 10
-    },
-    {
-      "name": "Test 2",
-      "setup": "",
+      "setup": "npm start",
       "run": "npx cypress run",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 10
     }
   ]
