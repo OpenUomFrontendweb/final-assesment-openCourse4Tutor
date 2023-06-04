@@ -7,7 +7,7 @@ export default defineConfig({
     supportFile: false
   },
   
-  
+  video: false,
   component: {
     devServer: {
       framework: 'angular',
