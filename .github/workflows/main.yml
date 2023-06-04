@@ -1,16 +1,10 @@
-name: GitHub Classroom Workflow
+name: Cypress Tests
 
-on: [push]
-
-permissions:
-  checks: write
-  actions: read
-  contents: read
+on: push
 
 jobs:
-  build:
-    name: Autograding
-    runs-on: ubuntu-latest
+  cypress-run:
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v3
