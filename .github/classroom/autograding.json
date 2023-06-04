@@ -7,7 +7,7 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
@@ -17,17 +17,17 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": null
     },
     {
       "name": "Test 1",
       "setup": "",
-      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
+      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": 10
     },
     {
@@ -37,7 +37,7 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": 10
     },
     {
@@ -47,7 +47,7 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": 10
     },
     {
@@ -57,7 +57,7 @@
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 2,
       "points": 10
     }
   ]
