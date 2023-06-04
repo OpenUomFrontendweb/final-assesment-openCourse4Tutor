@@ -23,7 +23,7 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "npm start",
+      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headed --browser chrome",
       "input": "",
       "output": "",
       "comparison": "included",
