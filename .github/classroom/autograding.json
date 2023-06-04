@@ -23,7 +23,7 @@
     {
       "name": "Test 1",
       "setup": "npm start",
-      "run": "npx cypress run",
+      "run": "npx cypress run --headless",
       "input": "",
       "output": "",
       "comparison": "included",
