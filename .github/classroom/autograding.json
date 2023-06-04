@@ -23,11 +23,21 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
+      "run": "npm start",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "npx cypress run",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
       "points": 10
     }
   ]
