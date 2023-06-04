@@ -14,5 +14,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: education/autograding@v1
-env:
-  ELECTRON_EXTRA_LAUNCH_ARGS: '--disable-gpu'
