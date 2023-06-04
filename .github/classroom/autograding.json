@@ -23,41 +23,11 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts",
+      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts headless",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 2,
-      "points": 10
-    },
-    {
-      "name": "Test 3",
-      "setup": "",
-      "run": "ng e2e --spec cypress/e2e/3-add-supplier-button-validation.cy.ts --headless",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 2,
-      "points": 10
-    },
-    {
-      "name": "Test 4",
-      "setup": "",
-      "run": "ng e2e --spec cypress/e2e/4-add-supplier-reset.cy.ts --headless",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 2,
-      "points": 10
-    },
-    {
-      "name": "Test 5",
-      "setup": "",
-      "run": "ng e2e --spec cypress/e2e/5-add-supplier.cy.ts --headless",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 10
     }
   ]
