@@ -25,7 +25,7 @@
       "setup": "",
       "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
       "input": "",
-      "output": "",
+      "output": "pass",
       "comparison": "included",
       "timeout": 2,
       "points": 10
