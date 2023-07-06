@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 2,
-      "points": 10
+      "points": null
     },
     {
       "name": "Test 2",
