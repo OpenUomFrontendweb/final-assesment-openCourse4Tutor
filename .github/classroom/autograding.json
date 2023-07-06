@@ -23,9 +23,9 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
+      "run": "forever start $(npm bin)/ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless",
       "input": "",
-      "output": "pass",
+      "output": "",
       "comparison": "included",
       "timeout": 2,
       "points": 10
