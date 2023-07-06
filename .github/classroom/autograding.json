@@ -33,7 +33,7 @@
     {
       "name": "Test 2",
       "setup": "",
-      "run": "forever start $(npm bin)/ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless && forever stopall",
+      "run": "forever start ng e2e --spec cypress/e2e/1-view-supplier.cy.ts --headless && forever stopall",
       "input": "",
       "output": "",
       "comparison": "included",
